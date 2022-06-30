@@ -11,10 +11,11 @@ function Default(html) {
     </head>
     <body>
       <div className="wrapper">
-        <header>
-          <h1><a href="/breads">BreadCRUD</a></h1>
+        <header className='row'>
+          <h1 className='text-center'><a href="/breads">BreadCRUD</a></h1>
         </header>
         <div className="container">
+          <div className='row justify-content-center'></div>
           {html.children}
         </div>
       </div>
